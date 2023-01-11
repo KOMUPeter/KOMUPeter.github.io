@@ -4,43 +4,140 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV Peter</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Cv Peter</title>
 </head>
 <body>
-    <div id="title-cv">
-        <img src="photocv.png" alt="" height="200px" width="150px">
-        <h1>Stagiaire Développeur Web</h1>
-        <p><a href="https://www.linkedin.com/in/peterkomudevweb/" target="_blank">Linkedin </a></p>
-    </div>
-    <div class="comptences">
-        <h3>Compétences</h3>
-        <div>
-            <ul>
-               <li>HTML et CSS</li>
-               <li>PHP / Symhony</li>
-               <li>Javascript / Angular</li>
-               <li>Figma</li>
-               <li>Git / Github</li>
-               <li>Linux</li>
-            </ul>
-        </div>
-        <div class="qualites">
-            <h3>qualités</h3>
-            <ul>
-                <li>Autonome</li>
-                <li>Esprit d’equipe</li>
-                <li>Persévérance</li>
-            </ul>
-        </div>
-        <div class="hobbies">
-            <h3>Centres d'interéts</h3>
-            <ul>
+   <div class="container">
+            <!-- container the out part -->
+            <!-- container profile -->
+        <aside id="competences">
+            <div class="photo">
+                <img src="images/photocv.png" class="cv-photo" alt="" height="200px" width="200px">
+            </div>
+
+            <!-- competences -->      
+            <div class="competences">
+                <h2>Compétences</h2>
+                <ul class="asides">
+                    <li>HTML et CSS</li>
+                    <li>PHP / Symhony</li>
+                    <li>Javascript / Angular</li>
+                    <li>Figma</li>
+                    <li>Git / Github</li>
+                    <li>Linux</li>
+                </ul>
+            </div>
+            <!-- qualites -->
+            <div class="qualites">
+                <h2>Qualités</h2>
+                <ul class="asides">
+                    <li>Autonome</li>
+                    <li>Esprit d'equipe</li>
+                    <li>Persévérance</li>
+                </ul>
+            </div>
+            <!-- hobbies -->
+            <div class="hobbies">
+            <h2>Centres d'interéts</h2>
+            <ul class="asides">
                 <li>Course à pied</li>
                 <li>Fitness</li>
             </ul>
-        </div>
+            </div>
+         <!-- languages -->
+            <div class="languages">
+            <h2>Langues</h2>
+                <ul class="asides">
+                    <li>Anglais - Bilingue</li>
+                    <li>Swahili - Bilingue</li>
+                </ul>
+            </div>
+        </aside>
+    
+     <!-- container academic history experiences and cv title -->
+        <main id="career-container">
+            <div class="cv-title">
+                <!-- dev web title and image-->
+                <h1>Développeur Web (Stage)</h1>
+                <a href="https://www.linkedin.com/in/peterkomudevweb/" target="_blank"><img src="images/linkedin.png" height="20px" width="20px"> Linkedin </a>
+                <div class ="profil">
+                    <p>Autonome, Responsable et Persévérance, Ancien chef de groupe dans
+                        l'armée, j'ai toujours maintenu la cohésion de mon équipe pour assurer
+                        un meilleur environnement de travail. Actuellement en formation
+                        développeur web, je recherche un stage afin de valider la fin de mes
+                        D'études</p>
+                </div>
+            </div>
+                <!--  "formation-et-experience"  -->
+            <div class="formation-et-experience">
+                <div class="formations" >
+                    <!-- formation dev -->
+                       <div class="form form1"> 
+                           <h2>Formation</h2>
+                           <h3>RNCP Dévéloppeur Web/Web mobile de niveau Bac +2</h3>
+                           <div class="spans"><span>Human Booster, Villeurbanne</span><span>de nov.2022 à nov.2023</span></div>
+                           <ul class="form-dev-ul">
+                               <li>Réaliser une interface utilisateur web statique et adaptable.</li>
+                               <li>Développer une interface utilisateur web dynamique.</li>
+                               <li>Développer la partie back-end d'une application web ou web mobile.</li>
+                               <li>Réaliser une Site vitrine avec WORDPRESS.</li>
+                           </ul>
+                       </div>
+       
+                       <!-- telecom course -->
+                       <div class="form form2">
+                            <h3>Technicien Télécoms</h3>
+                           <div class="spans"><span>Ofiaq, Perpignan </span><span>de févr.2019 à oct.2019</span></div>
+                           <p>Acquisition des connaissance</p>
+                           <ul class="item-ul">
+                               <li>Création des lignes</li>
+                               <li>Exploitation du réseau informatique</li>
+                               <li>Intervenir sur les équipements de téléphonie et de communication</li>
+                               <li>Résoudre les dysfonctionnements d'un équipement réseau</li>
+                           </ul>
+                       </div>
+       
+                       <!-- formation bac s -->
+                       <div class="form form3">
+                           <H3>Bac S</H3>
+                           <div class="spans"><span>Vision High School</span><span>de janv.2005 à déc.2008</span></div>
+                           <ul>
+                               <li>D'études supérieures dans le domaine des sciences et technologies.</li>
+                           </ul> 
+                       </div>
+                   </div>
+                    <!-- experiences -->
+                   <div class="experiences">
+                       <H2>Expérience professionnelle</H2>
+       
+                    <!-- telecom technicien -->
+                       <div class="e-tech">
+                           <h3>Technicien Télécoms</h3>
+                           <div class="spans"><span>Groupe Scopelec, Perpignan</span><span>de oct.2019 à déc.2021</span></div>
+                           <ul>
+                               <li>Création de ligne et Intervenir sur les équipements de téléphonie et de
+                                   communication.</li>
+                               <li>Intervenir sur le câblage de l'infrastructure locale.</li>
+                               <li>Utiliser les outils d'exploitation du réseau informatique.</li>
+                               <li>Diagnostiquer et résoudre les dysfonctionnements des équipements
+                                   réseaux.</li>
+                           </ul>
+                       </div>
+             
+                     <!-- military experience -->
+                       <div class="e-military">
+                           <h3>Militaire</h3>
+                           <div class="spans"><span>1er RE Aubagne</span><span>de nov.2010 à nov.2017</span></div>
+                           <ul>
+                               <li>Chef de groupe dans une section blindée et responsable personnel.</li>
+                               <li>Gestion des documents de convoi exceptionnel.</li>
+                               <li>Mise à niveau des nouveaux arrives et entraîneur de sport militaire.</li>
+                           </ul>
+                       </div>
+                   </div>
+            </div>
+        </main>
     </div>
-
-
 </body>
 </html>
